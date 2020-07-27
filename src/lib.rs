@@ -28,6 +28,7 @@ pub struct Universe
 }
 
 /// Public methods exported to JavaScript
+#[wasm_bindgen]
 impl Universe
 {
 	pub fn new() -> Universe
